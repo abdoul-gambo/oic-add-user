@@ -25,10 +25,14 @@ hadoop fs -chmod -R 750 /user/user_test
 
 ```  
 
-> HUE
+> HUE: go to HUE Web UI and add user manually
 
 > Jupyter `Client Node [hadoop-w-3]`  
 
 ```sh  
+# Edit /home/agambo/jupyterhub_config.py file
+sudo nano /home/agambo/jupyterhub_config.py
+
+# add user name in c.Authenticator.whitelist 
 
 ```
