@@ -9,7 +9,8 @@ This post show how to add new data analyst user in oic-projet. Data analyst shou
 
 ```sh  
 # Create user
-sudo adduser user_test # set password
+sudo adduser user_test 
+sudo passwd user_test # set password
 
 # Log as hadoop superuser
 sudo su - hdfs
